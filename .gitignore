@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+
+# Python / R temporary files
+__pycache__/
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+.env/
+venv/
+
+# Ignore large datasets inside raw and processed folders
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Ignore generated figure/table outputs
+results/figures/*
+!results/figures/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
