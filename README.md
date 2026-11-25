@@ -23,7 +23,7 @@ Our end-to-end analytical pipeline combines:
 
 ## Research Questions
 
-* **Primary Question:** Can daily atmospheric measurements and multi-day environmental trends reliably predict whether a wildfire ignition occurs on a given day?[cite: 10]
+* **Primary Question:** Can daily atmospheric measurements and multi-day environmental trends reliably predict whether a wildfire ignition occurs on a given day?
 * **Secondary Question (Generalizability):** To what extent does a predictive model trained on regional California weather data generalize when applied to broader, multi-source global wildfire records?
 
 ---
@@ -32,8 +32,8 @@ Our end-to-end analytical pipeline combines:
 
 | Dataset | Source & Citation | Size & Structure | Role in Study |
 | :--- | :--- | :--- | :--- |
-| **California Weather and Fire Prediction Dataset (1984–2025) with Engineered Features** | [Georgia Southern University / Zenodo](https://scholars.georgiasouthern.edu/en/datasets/california-weather-and-fire-prediction-dataset-19842025-with-engi/) (NOAA Climate Data Online + CAL FIRE; DOI: `10.5281/zenodo.14712845`)[cite: 13, 15] | ~14,988 daily records, 14 features; binary target `FIRE_START_DAY` (`fire_occurrence`)[cite: 12, 13] | **Primary Cohort:** EDA, hypothesis testing, logistic regression, and Phase 1 Random Forest training/testing[cite: 10, 12] |
-| **Global Wildfire Dataset** | [Kaggle](https://www.kaggle.com/datasets/vijayaragulvr/wildfire-prediction) (NASA FIRMS VIIRS + Open-Meteo reanalysis)[cite: 10, 14] | 118,858 spatial grid records, 17 numerical features; binary target `occured` (`fire_occurrence`)[cite: 14] | **External Validation Cohort:** Phase 2 out-of-domain generalizability testing[cite: 10] |
+| **California Weather and Fire Prediction Dataset (1984–2025) with Engineered Features** | [Georgia Southern University / Zenodo](https://scholars.georgiasouthern.edu/en/datasets/california-weather-and-fire-prediction-dataset-19842025-with-engi/) (NOAA Climate Data Online + CAL FIRE; DOI: `10.5281/zenodo.14712845`) | ~14,988 daily records, 14 features; binary target `FIRE_START_DAY` (`fire_occurrence`)| **Primary Cohort:** EDA, hypothesis testing, logistic regression, and Phase 1 Random Forest training/testing |
+| **Global Wildfire Dataset** | [Kaggle](https://www.kaggle.com/datasets/vijayaragulvr/wildfire-prediction) (NASA FIRMS VIIRS + Open-Meteo reanalysis)| 118,858 spatial grid records, 17 numerical features; binary target `occured` (`fire_occurrence`)| **External Validation Cohort:** Phase 2 out-of-domain generalizability testing |
 
 ---
 ### Authorship by Notebook
