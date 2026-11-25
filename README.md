@@ -37,7 +37,7 @@ Our end-to-end analytical pipeline combines:
 
 ---
 ### Authorship by Notebook
-* **`notebooks/EDA_and_datacleaning.ipynb`** — **Sneha Kumar**
+* **`notebooks/EDA_and_datacleaning.ipynb`** — **Sneha Kumar** (Project Lead)
 * **`notebooks/EDA_and_datacleaning_v1.1.ipynb`** — **Sneha Kumar** & **Jwann Sy**
 * **`notebooks/EDA Fire Data.ipynb`** — **Robin A.**
 * **`notebooks/Stat_analysis_Twosample.ipynb`** — **Sneha Kumar**
