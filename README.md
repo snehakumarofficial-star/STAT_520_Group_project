@@ -16,7 +16,7 @@ Our end-to-end analytical pipeline combines:
 1. **Data Ingestion, Cleaning & Feature Engineering:** Standardizing multi-decade meteorological and fire records, resolving missingness, and engineering 7-day lag metrics, diurnal temperature spreads, and wind-to-temperature ratios.
 2. **Exploratory Data Analysis (EDA):** Examining distributions, seasonal trends, correlation structures, and group shifts between fire and non-fire days.
 3. **Bivariate Inferential Hypothesis Testing:** Evaluating individual predictor differences using parametric (Welch's two-sample $t$-tests) and non-parametric (Mann–Whitney $U$, Chi-square tests of independence) methods alongside power analysis and effect sizes (Cohen's $d$)[cite: 10, 17].
-4. **Multivariable Statistical Modeling:** Fitting a **Multiple Logistic Regression** model (with VIF multicollinearity screening) to quantify covariate-adjusted log-odds, odds ratios ($\exp(\beta)$), and practical operational risk scenarios.
+4. **Multivariable Statistical Modeling:** Fitting a **Multiple Logistic Regression** model (with VIF multicollinearity screening) to quantify covariate-adjusted log-odds, odds ratios, and practical operational risk scenarios.
 5. **Machine Learning & Out-of-Sample Generalizability:** Training and tuning a **Random Forest Classifier** on historical California data (**Phase 1**) and evaluating external validity on a global wildfire dataset without retraining (**Phase 2**).
 
 ---
